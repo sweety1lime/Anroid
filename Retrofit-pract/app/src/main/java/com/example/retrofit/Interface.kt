@@ -7,7 +7,7 @@ import retrofit2.http.*
 
 interface Interface {
 
-    @GET("everything?q=game&from=2020-09-12&sortBy=publishedAt&apiKey=c22cef390cbf4ccb856d8e359c4cc21d")
+    @GET("everything?q=bitcoin&from=2020-09-14&sortBy=publishedAt&apiKey=c22cef390cbf4ccb856d8e359c4cc21d")
     fun getFile(): Call<ViewModel>
 
     @POST("/posts")
